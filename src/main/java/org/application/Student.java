@@ -31,32 +31,16 @@ public class Student {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
-    }
-
     public void setSurname(String surname) {
         this.surname = surname;
-    }
-
-    public String getSpecialization() {
-        return specialization;
     }
 
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
 
-    public Integer getCourse() {
-        return course;
-    }
-
     public void setCourse(Integer course) {
         this.course = course;
-    }
-
-    public Integer getGroup() {
-        return group;
     }
 
     public void setGroup(Integer group) {
